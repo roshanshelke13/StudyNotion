@@ -1,48 +1,29 @@
+# 📚 **StudyNotion**
 
-📚 StudyNotion
-StudyNotion is a fully functional EdTech web application where:
+**StudyNotion** is a fully functional EdTech web application where:
 
-🧑‍🎓 Students can browse, purchase, and access courses
+- 🧑‍🎓 **Students** can browse, purchase, and learn from online courses  
+- 🧑‍🏫 **Instructors** can create, edit, and manage their own courses  
+- 💳 **Razorpay payment integration** for secure course purchases  
+- 🛒 A complete **cart and checkout flow**  
+- 🔐 **User authentication** with role-based access (Student & Instructor)  
 
-🧑‍🏫 Instructors can create, manage, and edit their own courses
+> A complete, production-ready learning platform built with the MERN stack.
 
-💳 Integrated with Razorpay for secure payments
+---
 
-🛒 Includes a shopping cart, course dashboard, and authentication
+## 🔗 **Live Demo**
 
-🎯 Built with a complete MERN stack (MongoDB, Express, React, Node.js)
+👉 [**Visit StudyNotion**](https://study-notion-frontend-rosy.vercel.app/login)
 
-A complete full-stack learning platform with real-world features.
+> Log in as a student or instructor to explore the platform.
 
-🔗 Live Demo
-👉 Visit StudyNotion
+---
 
-Log in as a student or instructor to explore the platform.
+## 🚀 **Tech Stack**
 
-
-✅ Features
-🔐 JWT-based Auth with user roles (Student / Instructor)
-
-📦 Cart functionality with course checkout flow
-
-💸 Payment integration using Razorpay
-
-📝 Course creation and editing tools for instructors
-
-🎓 Student dashboard to track enrolled courses
-
-🧾 Admin controls and category management
-
-🌐 Deployed frontend (Vercel) & backend (Render)
-
-
-🚀 Tech Stack
-Frontend: React.js, Tailwind CSS, Redux Toolkit
-
-Backend: Node.js, Express.js, MongoDB, Mongoose
-
-Payment: Razorpay
-
-Hosting: Vercel (frontend), Render (backend)
-
-Authentication: JWT, bcrypt
+- **Frontend**: React.js, Tailwind CSS, Redux Toolkit  
+- **Backend**: Node.js, Express.js, MongoDB, Mongoose  
+- **Payment**: Razorpay  
+- **Hosting**: Vercel (frontend), Render (backend)  
+- **Authentication**: JWT, bcrypt  
