@@ -1,31 +1,48 @@
-# React & Tailwind CSS Starter Pack
 
-This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
+📚 StudyNotion
+StudyNotion is a fully functional EdTech web application where:
 
-## Usage
+🧑‍🎓 Students can browse, purchase, and access courses
 
-This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
+🧑‍🏫 Instructors can create, manage, and edit their own courses
 
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
-    ```
+💳 Integrated with Razorpay for secure payments
 
-1. Install the required packages.
-    ```sh
-    cd react-tailwind-css-starter-pack
-    npm install
-    ```
+🛒 Includes a shopping cart, course dashboard, and authentication
 
-1. Start the development server.
-    ```sh
-    npm start
-    ```
-1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
+🎯 Built with a complete MERN stack (MongoDB, Express, React, Node.js)
 
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
+A complete full-stack learning platform with real-world features.
 
-## Contributing
+🔗 Live Demo
+👉 Visit StudyNotion
 
-Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
+Log in as a student or instructor to explore the platform.
+
+
+✅ Features
+🔐 JWT-based Auth with user roles (Student / Instructor)
+
+📦 Cart functionality with course checkout flow
+
+💸 Payment integration using Razorpay
+
+📝 Course creation and editing tools for instructors
+
+🎓 Student dashboard to track enrolled courses
+
+🧾 Admin controls and category management
+
+🌐 Deployed frontend (Vercel) & backend (Render)
+
+
+🚀 Tech Stack
+Frontend: React.js, Tailwind CSS, Redux Toolkit
+
+Backend: Node.js, Express.js, MongoDB, Mongoose
+
+Payment: Razorpay
+
+Hosting: Vercel (frontend), Render (backend)
+
+Authentication: JWT, bcrypt
