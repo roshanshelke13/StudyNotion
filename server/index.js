@@ -27,12 +27,25 @@ const cors = require("cors");
 const cookieParser = require("cookie-parser");
 
 app.use(cookieParser());
+const allowedOrigins = [
+  "http://localhost:3000",
+  "https://study-notion-frontend-rosy.vercel.app"
+];
+
 app.use(
-    cors({
-        origin:"http://localhost:3000",
-        credentials:true,
-    })
-)
+  cors({
+    origin: function (origin, callback) {
+      // Allow requests with no origin (like mobile apps, curl, Postman)
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error("Not allowed by CORS"));
+      }
+    },
+    credentials: true,
+  })
+);
+
 
 app.use("/api/v1/auth",userRoutes);
 app.use("/api/v1/profile",profileRoutes);
