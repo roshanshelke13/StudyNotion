@@ -14,7 +14,7 @@
 
 ## 🔗 **Live Demo**
 
-👉 [**Visit StudyNotion**](https://study-notion-frontend-rosy.vercel.app/login)
+👉 [**Visit StudyNotion**](https://study-notion-frontend-rosy.vercel.app/)
 
 > Log in as a student or instructor to explore the platform.
 
